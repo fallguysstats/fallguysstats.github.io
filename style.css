@@ -1,0 +1,64 @@
+.logo{
+  height:40px;
+  border-radius: 30px;
+}
+.font20 {
+  font-size: 20px;
+}
+/* Dropdown on hover does not go white */
+.dropdown-item:hover {
+  background-color: black;
+}
+.lightpurpleback{
+  background-color:#ab47bc;
+}
+.carouselimages {
+  height: 330px;
+  width: 587px;
+}
+.fontawesomeicons {
+  font-size:30px;
+}
+/* Title animation */
+.titleanimation {
+  animation:jackInTheBox;
+  animation-duration:2s;
+}
+/* Icons hover effect */
+#iconshover:hover{
+  color: black;
+  animation:bounce;
+  animation-duration:1s;
+  font-size: 45px;
+}
+@media (max-width:768px) {
+    .carouselimages {
+      height: 250px;
+      width: 445px;
+    }
+    #iconshover:hover{
+      font-size:30px;
+    }
+}
+@media (max-width:540px) {
+    .carouselimages {
+      height: 194.1px;
+      width: 345.3px;
+    }
+}
+/* Support Me animation */
+.supportmeanimation {
+  animation:heartBeat;
+  animation-duration:2s;
+}
+/* Make table mobile friendly */
+@media (max-width:768px) {
+    .tablefont {
+      font-size: 16px;
+    }
+}
+@media (max-width:560px) {
+    .tablefont {
+      font-size: 14px;
+    }
+}

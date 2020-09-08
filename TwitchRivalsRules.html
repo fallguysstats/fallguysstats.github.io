@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kostas Merenidis">
+    <meta name="description" content="Fall guys tournament statistics and player rankings">
+    <meta name="keywords" content="fall guys, fall guys tournament, fall guys tournament results, fall guys top players, fall guys twitch rivals, fall guys stats,
+                fall guys statistics, fall guys tournament stats, fall guys competetive">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fall Guys Stats</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/63c18f78be.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-dark text-white">
+    <header>
+      <!-- Navigation -->
+      <div style="height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 130" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #7b1fa2"></path>
+        </svg>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="./images/logo.PNG" class="logo" alt="Image not found"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Player Statistics
+              </a>
+              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-white" href="TwitchRivals1PlayerUS.html">Twitch Rivals 1 US</a>
+                <a class="dropdown-item text-white" href="#">Twitch Rivals 1 EU</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Team Statistics
+              </a>
+              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-white" href="TwitchRivals1TeamUS.html">Twitch Rivals 1 US</a>
+                <a class="dropdown-item text-white" href="#">Twitch Rivals 1 EU</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Leaderboards
+              </a>
+              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-white" href="LeaderboardsUS1.html">Twitch Rivals 1 US</a>
+                <a class="dropdown-item text-white" href="#">Twitch Rivals 1 EU</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="TwitchRivalsRules.html">Twitch Rivals Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="SupportMe.html">Support Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-4 titleanimation text-center">Twitch Rivals Rules v2</h1>
+            <hr class="my-4 lightpurpleback">
+            <p class="font20 text-center">The scoring system has been updated, after the first Twitch Rivals US tournament. The EU teams will be the first ones competing with this format.
+              The new scoring system seems more balanced than the previous one in which games with more rounds were favored. Guess what? Now games with less rounds are favored. But at least
+              with the new format skilled players are awarded. The maximum number of points a team can acquire per game is 9. Everything else remains the same.</p>
+            <hr class="my-4 lightpurpleback">
+            <h4 class="text-center">FORMAT</h4>
+            <ul class="font20">
+              <li>80 Invited Streamers split into 20 Teams of 4</li>
+              <li>Teams compete in up to 10 games of Fall Guys</li>
+              <li>Teams will be ranked and receive prizing based on their final standings</li>
+            </ul>
+            <h4 class="text-center">RULES</h4>
+            <ul class="font20">
+              <li>Teams will only queue for a total of 6 regulation games + 4 knockout games</li>
+              <li>After the 7th game (Knockout Game 1), 50% of the teams (11th-20th place) are knocked out</li>
+              <li>After the 8th game (Knockout Game 2), 50% of the remaining teams (6th-10th place) are knocked out</li>
+              <li>After the 9th game (Knockout Game 3), 50% of the remaining teams (3rd-5th place) are knocked out</li>
+              <li>After the 10th game (Knockout Game 4), the team in 2nd place is knocked out</li>
+            </ul>
+            <h4 class="text-center">SCORING</h4>
+            <ul class="font20">
+              <li>For every team member that reaches the Final Round of a Show: +1 Point</li>
+              <li>For any team member that wins the Final Round of a Show: +5 Points</li>
+            </ul>
+            <h4 class="text-center">PRIZING</h4>
+            <ul class="font20">
+              <li>1st: $7,000</li>
+              <li>2nd: $4,000</li>
+              <li>3rd - 5th: $3,000</li>
+              <li>6th - 10th: $2,500</li>
+              <li>11th - 15th: $2,000</li>
+              <li>16th - 20th: $1,500</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-white" style="background-color:#5e35b1;">
+      <div class="container-fluid">
+        <div class="row text-center">
+            <div class="lead col-12">Want to partner up with me or have any recommendations for the website? Send me an e-mail.</div>
+            <div class="col-12 lead"><i class="far fa-envelope fontawesomeicons"></i>  fallguysstats@gmail.com</div>
+            <div class="col-12 lead">Check out when the next Fall Guys Twitch Rivals is:  <a href="https://rivals.twitch.tv/" target="blank" style="color:white;"><i class="fab fa-twitch fontawesomeicons" id="iconshover"></i></a></div>
+            <div class="col-12 lead" style="background-color:#311b92"><i class="far fa-copyright"></i>2020 Copyright: Fall Guys Statistics All Right Reserved</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap jQuery, PopperJS, JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
