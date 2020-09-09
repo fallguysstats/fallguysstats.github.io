@@ -12,7 +12,7 @@
     </script>
     <meta charset="UTF-8">
     <meta name="author" content="Fall Guys Stats">
-    <meta name="description" content="Fall guys twitch rivals tournament statistics for player, streamers, pro">
+    <meta name="description" content="Fall guys twitch rivals rules">
     <meta name="keywords" content="fall guys, fall guys tournament, fall guys tournament results, fall guys top players, fall guys twitch rivals, fall guys stats,
                 fall guys statistics, fall guys tournament stats, fall guys competetive">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/63c18f78be.js" crossorigin="anonymous"></script>
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark text-white">
     <header>
       <!-- Navigation -->
       <div style="height: 150px; overflow: hidden;">
@@ -44,12 +44,12 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item dropdown active">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Player Statistics
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-white" href="TwitchRivals1PlayerUS.html">Twitch Rivals 1 US</a>
+                <a class="dropdown-item text-white" href="twitch-rivals-player-stats-US-1.html">Twitch Rivals 1 US</a>
                 <a class="dropdown-item text-white" href="#">Twitch Rivals 1 EU</a>
               </div>
             </li>
@@ -58,7 +58,7 @@
                 Team Statistics
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-white" href="TwitchRivals1TeamUS.html">Twitch Rivals 1 US</a>
+                <a class="dropdown-item text-white" href="twitch-rivals-team-stats-US-1.html">Twitch Rivals 1 US</a>
                 <a class="dropdown-item text-white" href="#">Twitch Rivals 1 EU</a>
               </div>
             </li>
@@ -67,41 +67,61 @@
                 Leaderboards
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-white" href="LeaderboardsUS1.html">Twitch Rivals 1 US</a>
+                <a class="dropdown-item text-white" href="twitch-rivals-leaderboards-US-1.html">Twitch Rivals 1 US</a>
                 <a class="dropdown-item text-white" href="#">Twitch Rivals 1 EU</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="TwitchRivalsRules.html">Twitch Rivals Rules</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="twitch-rivals-rules.html">Twitch Rivals Rules</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="SupportMe.html">Support Me</a>
+              <a class="nav-link" href="support-me.html">Support Me</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <div class="container-fluid text-white">
-        <div class="row text-center">
+      <div class="container-fluid">
+        <div class="row">
           <div class="col-12">
-            <h1 class="display-4 titleanimation">Player Stats</h1>
-            <p class="font20">Here you can see individual player performance. Now, I am going to be honest. The scoring system in the first Twitch Rivals tournament wasn't the best.
-            It seems like it favors games with more rounds and if your team loses a 50-50 stage in early rounds you are kind of screwed. Also the total score does not reflect the whole truth.
-            Obviously players who played more games have a higher score. A more realistic measure is the average score per game. So all of the charts, at least for the first Twitch Rivals tournament,
-            are averaged by the number of games each player/team played.</p>
-            <img src="./images/img4.webp" class="img-fluid rounded mx-auto d-block" alt="fall guys twitch rivals results image">
+            <h1 class="display-4 titleanimation text-center">Twitch Rivals Rules v2</h1>
+            <hr class="my-4 lightpurpleback">
+            <p class="font20 text-center">The scoring system has been updated, after the first Twitch Rivals US tournament. The EU teams will be the first ones competing with this format.
+              The new scoring system seems more balanced than the previous one in which games with more rounds were favored. Guess what? Now games with less rounds are favored. But at least
+              with the new format skilled players are awarded. The maximum number of points a team can acquire per game is 9. Everything else remains the same.</p>
+            <hr class="my-4 lightpurpleback">
+            <h4 class="text-center">FORMAT</h4>
+            <ul class="font20">
+              <li>80 Invited Streamers split into 20 Teams of 4</li>
+              <li>Teams compete in up to 10 games of Fall Guys</li>
+              <li>Teams will be ranked and receive prizing based on their final standings</li>
+            </ul>
+            <h4 class="text-center">RULES</h4>
+            <ul class="font20">
+              <li>Teams will only queue for a total of 6 regulation games + 4 knockout games</li>
+              <li>After the 7th game (Knockout Game 1), 50% of the teams (11th-20th place) are knocked out</li>
+              <li>After the 8th game (Knockout Game 2), 50% of the remaining teams (6th-10th place) are knocked out</li>
+              <li>After the 9th game (Knockout Game 3), 50% of the remaining teams (3rd-5th place) are knocked out</li>
+              <li>After the 10th game (Knockout Game 4), the team in 2nd place is knocked out</li>
+            </ul>
+            <h4 class="text-center">SCORING</h4>
+            <ul class="font20">
+              <li>For every team member that reaches the Final Round of a Show: +1 Point</li>
+              <li>For any team member that wins the Final Round of a Show: +5 Points</li>
+            </ul>
+            <h4 class="text-center">PRIZING</h4>
+            <ul class="font20">
+              <li>1st: $7,000</li>
+              <li>2nd: $4,000</li>
+              <li>3rd - 5th: $3,000</li>
+              <li>6th - 10th: $2,500</li>
+              <li>11th - 15th: $2,000</li>
+              <li>16th - 20th: $1,500</li>
+            </ul>
           </div>
         </div>
       </div>
-      <!-- Charts -->
-      <hr class="bg-light">
-      <img src="./images/fig5_1.png" class="img-fluid rounded mx-auto d-block" alt="fall guys tournament stats image">
-      <hr class="bg-light">
-      <p class="text-center font20 text-white">Players not shown didn't get a crown. Approximately 46% of players got a crown.</p>
-      <img src="./images/fig2_1.png" class="img-fluid rounded mx-auto d-block" alt="fall guys crowns image">
-      <p class="text-center font20 text-white">We can actually see that Boxbox from team Scarra had arguably the best performance in the tournament despite his team getting 7th place.</p>
-      <hr class="bg-light">
     </main>
     <footer class="text-white" style="background-color:#5e35b1;">
       <div class="container-fluid">
@@ -114,11 +134,9 @@
         </div>
       </div>
     </footer>
-
     <!-- Bootstrap jQuery, PopperJS, JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    </body>
   </body>
 </html>
